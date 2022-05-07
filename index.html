@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="converter-container">
+            <div class="input-container">
+               <label for="unit-input">Type a number</label>
+               <input id="unit-input" type="number" name="unit" min="1" placeholder="0">
+            </div>
+            <div class="conversions-container">
+                <div>
+                    <p class="unit-description">Length (Meter/Feet)</p>
+                    <p class="converted-unit length"></p>                    
+                </div>
+                <div>
+                    <p class="unit-description">Volume (Liters/Gallons)</p>
+                    <p class="converted-unit volume"></p>                    
+                </div>
+                <div>
+                    <p class="unit-description">Mass (Kilograms/Pounds)</p>
+                    <p class="converted-unit mass"></p>                    
+                </div>             
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
